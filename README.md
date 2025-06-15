@@ -19,7 +19,7 @@ You can control simulated devices in a house, like doors, windows, and lights. T
 ### Requirements
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Dependencies include:
@@ -33,7 +33,7 @@ Dependencies include:
 ### How to Run
 
 ```bash
-python assistant.py
+python3 assistant.py
 ```
 
 Choose between `voice` or `text` mode when prompted, and start giving commands.
@@ -58,13 +58,4 @@ smart_home_assistant/
 ├── controller.py      # Command handling logic
 ├── house.py           # Simulated smart home logic
 └── requirements.txt   # Dependencies
-```
 
----
-
-### Future Ideas
-
-- Integration with physical devices (e.g. Raspberry Pi + relays)
-- Web interface or mobile app
-- Connection to external APIs (e.g. weather, calendar)
-- AI-based command understanding (e.g. GPT integration)
