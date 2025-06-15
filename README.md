@@ -57,7 +57,6 @@ smart_home_assistant/
 ├── assistant.py       # Main interface (voice/text)
 ├── controller.py      # Command handling logic
 ├── house.py           # Simulated smart home logic
-├── config.py          # (Optional future settings)
 └── requirements.txt   # Dependencies
 ```
 
